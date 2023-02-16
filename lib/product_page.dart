@@ -33,6 +33,7 @@ class _MainScreenState extends State<MainScreen> {
     try {
       _response = await _api.getData();
       print("ssss");
+      print("object");
       _status = _Status.success;
       setState(() {});
     } catch (e) {
